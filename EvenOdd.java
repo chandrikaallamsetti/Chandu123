@@ -9,12 +9,23 @@ public class EvenOdd{
         input.close();
     }
     public static int EvenorOdd(int a){
-        if(a%2==0)
+        if(a==0)
         {
-            System.out.println("The given number "+a+" is an even number");
+              System.out.println("The given number "+a+" is neither even nor odd");
         }
-        else{
-            System.out.println("The given number "+a+" is an odd number");
+        else if(a>0)
+        {
+            if(a%2==0)
+            {
+                System.out.println("The given number "+a+" is an even number");
+            }
+             else{
+                 System.out.println("The given number "+a+" is an odd number");
+            }
+        }
+        else
+        {
+              System.out.println("Please enter positive number");
         }
         return 0;
     }
