@@ -19,7 +19,14 @@ public class Calculator{
              System.out.println(n1+"-"+n2+"="+(n1-n2));
         }
         else if(choice==3){
-             System.out.println(n1+"/"+n2+"="+(n1/n2));
+            if(n2!=0)
+            {
+               System.out.println(n1+"/"+n2+"="+(n1/n2));
+            }
+            else
+            {
+                System.out.println("Can't divide by zero");
+            }
         }
         else if(choice==4){
              System.out.println(n1+"*"+n2+"="+(n1*n2));
