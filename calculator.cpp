@@ -7,7 +7,7 @@ int main()
     cout<<"Enter two integers : ";
     cin>>n1;
     cin>>n2;
-    cout<<"1.Addition\n2.Subtraction\n3.Multiplication\4.Division\n";
+    cout<<"1.Addition\n2.Subtraction\n3.Multiplication\n4.Division\n";
     cout<<"Enter your choice : ";
     cin>>choice;
     switch(choice)
